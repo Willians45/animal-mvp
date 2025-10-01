@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import supabase from './supabaseClient';
+import supabase from '../supabaseClient';
 import QRCode from 'qrcode';
 
 export default function CreateAnimal() {
